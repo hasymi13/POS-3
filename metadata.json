@@ -1,0 +1,6 @@
+{
+  "name": "ENIGMA POS & Kasir Pro - Manajemen Toko & Analitik",
+  "description": "Sistem Kasir Modern (MPOS), Manajemen Stok Real-time, Notifikasi WhatsApp/Email Stok Menipis, Pembayaran QRIS & Digital, serta Ekspor PDF/Excel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

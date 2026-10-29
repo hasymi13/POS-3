@@ -1,0 +1,25 @@
+@import "tailwindcss";
+
+@layer base {
+  * {
+    box-sizing: border-box;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  .print\:p-0,
+  .print\:p-0 * {
+    visibility: visible !important;
+  }
+  .print\:p-0 {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100% !important;
+    background: white !important;
+    color: black !important;
+  }
+}
